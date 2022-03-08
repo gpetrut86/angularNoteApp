@@ -1,0 +1,8 @@
+<p>
+    <mat-form-field class="full-width" appearance="legacy">
+        <mat-label>Write a note</mat-label>
+        <input #inputValue matInput placeholder="Make more money...">
+        <mat-icon matSuffix>assignment</mat-icon>
+    </mat-form-field>
+    <button (click)="onSaveClick(inputValue)" class="btn" mat-raised-button color="warn">Save note</button>
+</p>

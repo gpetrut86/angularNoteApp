@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="container-top">
+    <app-note (onSave)="reciveNoteEvent($event)"></app-note>
+
+  </div>
+  <div class="container-bottom">
+    <app-card *ngFor="let note of notes; let i=index" [noteText]="note" [index]="i"
+      (onDeleted)="reciveNoteDeleteEvent($event)"></app-card>
+  </div>
+</div>

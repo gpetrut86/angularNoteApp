@@ -1,0 +1,18 @@
+.container{
+    padding: 5px;
+}
+
+.container-top{
+    min-height:30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-bottom{
+    height:50vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
